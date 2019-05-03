@@ -59,7 +59,7 @@ public class SelectionBinary {
     		if (data[bm].equals(cari)) {
     			bketemu = 1;
     		} else if (cari.compareTo(data[bm]) < 0) {
-    			br = bl - 1;
+    			br = bm - 1;
     		} else {
     			bl = bm + 1;
     		}
